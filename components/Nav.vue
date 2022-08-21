@@ -1,6 +1,14 @@
 <template>
-    <div>
-
+    <div class="container">
+        <div class="row">
+            <nav>
+                <img class="image" src="@/assets/images/logo.png" alt="logo-website">
+                   <div class="input">
+                    <input type="text">
+                   </div>
+                
+            </nav>
+        </div>
     </div>
 </template>
 
@@ -10,6 +18,9 @@
     }
 </script>
 
-<style lang="scss" scoped>
-
+<style  scoped>
+.image{
+    width: 10rem;
+    object-fit: contain;
+}
 </style>
