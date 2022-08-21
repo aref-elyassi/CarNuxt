@@ -1,12 +1,12 @@
 <template>
-    <div class="contain">     
+    <div class="container-fluid contain">     
             <nav class="navbar">
                 <div>
                     <img class="image" src="@/assets/images/logo.png" alt="logo-website">
                 </div>
 
                 <div class="input">
-                    <input type="text">
+                    <input type="text" placeholder="Search for cars and bikes">
                 </div>
                    
                 <div class="signin">
@@ -28,7 +28,19 @@
 </script>
 
 <style  scoped>
-
+input{
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    border: 1px solid #707070;
+    background: transparent;
+}
+input::placeholder{
+    color: #707070;
+    text-align: center;
+    font-size:1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .image{
     width: 10rem;
     object-fit: contain;
@@ -37,14 +49,16 @@
     background: #26282b;
     width: 100%;
     margin: 0;
+ 
 }
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    height: 5rem;
 }
 .router{
-    color: #fff;
+    color: #707070;
     text-decoration: none;
 }
 
