@@ -1,9 +1,11 @@
 <template>
     <div class="container-fluid contain">     
             <nav class="navbar">
-                <div>
+                <nuxt-link to="/">
+
                     <img class="image" src="@/assets/images/logo.png" alt="logo-website">
-                </div>
+                </nuxt-link>
+            
 
                 <div class="input">
                     <input type="text" placeholder="Search for cars and bikes">
