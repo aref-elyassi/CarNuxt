@@ -23,7 +23,7 @@
     justify-content: space-between;
     background: rgba(49, 49, 49, 0.5);
     padding: 10px;
-    color: aliceblue;
+    color: gold;
 
 }
 .myimage{
