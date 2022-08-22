@@ -1,20 +1,19 @@
 <template>
     <div class="mysection">
         <div class="mycard">
-             <img class="myimage" :src="require(`@/assets/images/${largecard.image || 'car5.jpg'}`)" alt="">
-            <h4>{{largecard.description}}</h4>
-            <span>{{largecard.time}}</span>
+             <img class="myimage" :src="require(`@/assets/images/${largecardbike.image || 'car5.jpg'}`)" alt="">
+            <h4>{{largecardbike.description}}</h4>
+            <span>{{largecardbike.time}}</span>
         </div>
     </div>
 </template>
 
 <script>
     export default {
-        name:'LargeCard',
-        props:['largecard']
-        
+        props:['largecardbike']
     }
 </script>
+
 
 <style  scoped>
 .myimage{

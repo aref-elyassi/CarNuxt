@@ -1,9 +1,9 @@
 <template>
-     <div class="mysection">
+      <div class="mysection">
         <div class="mycard">
-             <img class="myimage" :src="require(`@/assets/images/${smallcard.image || 'car5.jpg'}`)" alt="">
-            <h4>{{smallcard.description}}</h4>
-            <span>{{smallcard.time}}</span>
+             <img class="myimage" :src="require(`@/assets/images/${smallcardbike.image || 'bike5.jpg'}`)" alt="">
+            <h4>{{smallcardbike.description}}</h4>
+            <span>{{smallcardbike.time}}</span>
            
         </div>
     </div>
@@ -11,13 +11,14 @@
 
 <script>
     export default {
-        props:['smallcard']
+        props:['smallcardbike']
     }
 </script>
 
 <style scoped>
 .myimage{
     object-fit: cover;
+    border-radius: 10px;
 }
 .mycard{
     display: flex;
