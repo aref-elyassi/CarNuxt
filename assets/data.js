@@ -10,6 +10,7 @@ export const smallCardHome=
     [
         {
             id:1,
+            name:'Lorem',
             description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
             time:'5 hours ago',
             image:'car10.png',
@@ -18,6 +19,7 @@ export const smallCardHome=
         },
         {
             id:2,
+            name:'Lorem',
             description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
             time:'5 hours ago',
             image:'car6.png',
@@ -26,6 +28,7 @@ export const smallCardHome=
         },
         {
             id:3,
+            name:'Lorem',
             description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
             time:'5 hours ago',
             image:'car7.png',
@@ -34,6 +37,7 @@ export const smallCardHome=
         },
         {
             id:4,
+            name:'Lorem',
             description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
             time:'5 hours ago',
             image:'car9.png',
@@ -55,6 +59,7 @@ export const smallCardHome=
         [
             {
                 id:1,
+                name:'Lorem',
                 description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
                 time:'5 hours ago',
                 image:'bike9.jpg',
@@ -63,6 +68,7 @@ export const smallCardHome=
             },
             {
                 id:2,
+                name:'Lorem',
                 description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
                 time:'5 hours ago',
                 image:'bike8.jpg',
@@ -71,6 +77,7 @@ export const smallCardHome=
             },
             {
                 id:3,
+                name:'Lorem',
                 description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
                 time:'5 hours ago',
                 image:'bike7.jpg',
@@ -79,6 +86,7 @@ export const smallCardHome=
             },
             {
                 id:4,
+                name:'Lorem',
                 description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
                 time:'5 hours ago',
                 image:'bike4.jpg',

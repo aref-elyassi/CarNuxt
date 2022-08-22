@@ -41,18 +41,20 @@
           </div>
         </div>
     </section>
-   
    <section class="section2">
         <div class="question">
           <h3>Cars And Bike</h3>
           <hr>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quisquam omnis neque libero delectus odio ducimus facilis commodi illum. Esse veniam minus ipsa quas adipisci unde id iusto enim sit blanditiis voluptate iste dolor harum velit eaque perferendis architecto in, corporis excepturi accusamus nemo et illo. Non corporis dolor assumenda.</p>
-         
         </div>
     </section>
   </div>
 </div>
-    
+<div class="row">
+<div class="carousel">
+  <Carousel/>
+</div>
+</div>
   </div>
 </template>
 
@@ -87,6 +89,13 @@ data(){
 *{
   margin: 0;
   padding: 0;
+}
+.carousel{
+  background: url('../assets/images/bg16.png');
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .question{
   display: flex;
