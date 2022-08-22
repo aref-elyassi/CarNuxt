@@ -36,7 +36,7 @@
     width: 60%;
 }
 input{
-    background-color: #395B64;
+    background-color: #374245;
     border: 1px solid #707070;
 }
 input::placeholder{
@@ -47,7 +47,7 @@ input::placeholder{
     border-radius: 10px;
     padding: 20px;
     margin-top: 5rem;
-    background: #395B64;
+    background: #374245;
     color:#e1dfdf
 }
 .router{
