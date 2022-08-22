@@ -7,8 +7,12 @@
     </div>
     <div class="row">
       <div class="after-nav">
-        <LargeCard :largecard="largeCardinfo"/>
-        <SmallCardDisplay :smallcarddisplay="smallCardinfo"/>
+        <div class="largecardsection">
+          <LargeCard :largecard="largeCardinfo"/>
+        </div>
+        <div class="smallcardsection">
+          <SmallCardDisplay  :smallcarddisplay="smallCardinfo"/>
+        </div>
       </div>
     </div>
   </div>
@@ -44,12 +48,23 @@ data(){
   width:100%;
   filter:brightness(80%)
 }
+.largecardsection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+}
+.smallcardsection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .after-nav{
 background: #26282b;
-height: 60vh;
+height: 80vh;
 display: flex;
 align-items: center;
-
+justify-content: space-around;
+width: 100vw;
 }
 </style>

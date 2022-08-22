@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <SmallCard
+    <div class="cs">
+        <SmallCard 
         v-for="smallcard in smallcarddisplay" :key="smallcard.id"
         :smallcard="smallcard"/>
     </div>
@@ -14,6 +14,11 @@ import SmallCard from './SmallCard.vue';
 }
 </script>
 
-<style lang="scss" scoped>
-
+<style  scoped>
+.cs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 </style>

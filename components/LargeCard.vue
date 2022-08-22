@@ -1,7 +1,7 @@
 <template>
     <div class="mysection">
         <div class="mycard">
-             <img class="myimage" :src="require(`@/assets/images/${largecard.image || 'car5.jpg'}`)" alt=""></img>
+             <img class="myimage" :src="require(`@/assets/images/${largecard.image || 'car5.jpg'}`)" alt="">
             <h4>{{largecard.description}}</h4>
             <span>{{largecard.time}}</span>
         </div>
@@ -18,8 +18,7 @@
 
 <style  scoped>
 .myimage{
-   object-fit: contain;
-   width: 30rem;
+   object-fit: cover;
 }
 .mycard{
     display: flex;
@@ -28,12 +27,9 @@
 border: 1px solid #707070;
 border-radius: 10px;
 background: #343434;
-width: 45rem;
 color: #707070;
 
 }
-.mysection{
-    width: 100vw;
-}
+
 
 </style>
