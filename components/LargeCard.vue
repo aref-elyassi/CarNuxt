@@ -28,8 +28,9 @@
 border: 1px solid #707070;
 border-radius: 10px;
 background: #343434;
-width: 40rem;
+width: 45rem;
 color: #707070;
+
 }
 .mysection{
     width: 100vw;

@@ -8,6 +8,7 @@
     <div class="row">
       <div class="after-nav">
         <LargeCard :largecard="largeCardinfo"/>
+        <SmallCardDisplay :smallcarddisplay="smallCardinfo"/>
       </div>
     </div>
   </div>
@@ -16,15 +17,18 @@
 <script>
 
 import LargeCard from '../components/LargeCard.vue';
-import largeCardHome from '../assets/data.js'
+import {largeCardHome,smallCardHome} from '../assets/data.js'
+import SmallCardDisplay from '../components/SmallCardDisplay.vue';
 export default {
   name: 'IndexPage',
   components:{
     LargeCard,
+    SmallCardDisplay
 },
 data(){
   return{
-    largeCardinfo:largeCardHome
+    largeCardinfo:largeCardHome,
+    smallCardinfo:smallCardHome
   }
 }
   
@@ -43,6 +47,9 @@ data(){
 
 .after-nav{
 background: #26282b;
+height: 60vh;
+display: flex;
+align-items: center;
 
 }
 </style>
