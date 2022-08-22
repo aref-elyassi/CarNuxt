@@ -7,15 +7,25 @@
                   <label for="exampleFormControlInput1" class="form-label">Name</label>
                     <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="john due">
                 </div>
-           
+            <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Phone</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="012456789">
+                </div>
+                 <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Country</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Spain">
+                </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
-            <div class="signin-out">
-                <button class="btn btn-success">Log In</button>           
-                <nuxt-link to="/signup" class="router">Don't Have acoount??  Please Create Account</nuxt-link>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Accept Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
+           
+                <button class="btn btn-success">Sign Up</button>           
+          
         
             </div>
         </div>
@@ -32,8 +42,8 @@
 .signin-out{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 60%;
+    justify-content: space-around;
+    width: 50%;
 }
 input{
     background-color: #395B64;
@@ -46,7 +56,7 @@ input::placeholder{
     border: 1px solid #cacaca;
     border-radius: 10px;
     padding: 20px;
-    margin-top: 5rem;
+    margin-top: 2rem;
     background: #395B64;
     color:#e1dfdf
 }

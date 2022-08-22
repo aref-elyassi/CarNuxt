@@ -66,6 +66,7 @@ li{
       display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px ;
 }
 .nav{
     display: flex;
