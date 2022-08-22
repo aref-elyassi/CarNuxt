@@ -21,7 +21,8 @@ export default {
 }
 
 img{
-  width:100vw
+  width:100vw;
+  filter:brightness(80%)
 }
 
 
