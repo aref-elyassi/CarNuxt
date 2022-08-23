@@ -5,9 +5,8 @@
             <h3>{{allcar.name}}</h3>
             <p>{{allcar.description}}</p>
             <p>Price:{{allcar.price}}</p>
-            <button class="btn btn-dark">Details</button>
+            <nuxt-link :to="`/cars/${allcar.id}`" class="card-container btn btn-dark">Details</nuxt-link>      
             </div>
-
     </div>
 </template>
 

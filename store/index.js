@@ -284,5 +284,8 @@ export const getters={
     },
     allBikes(state){
         return state.bikes
+    },
+    getCarById:(state)=>(id)=>{
+        return state.cars.find(car=>car.id==id)
     }
 }
