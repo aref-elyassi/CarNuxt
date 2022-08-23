@@ -287,5 +287,8 @@ export const getters={
     },
     getCarById:(state)=>(id)=>{
         return state.cars.find(car=>car.id==id)
+    },
+    getBikeById:(state)=>(id)=>{
+        return state.bikes.find(bike=>bike.id==id)
     }
 }

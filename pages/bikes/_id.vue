@@ -17,7 +17,7 @@ import { mapGetters } from 'vuex';
     export default {
          computed: {
             product() {
-                return this.$store.getters.getCarById(this.$route.params.id);
+                return this.$store.getters.getBikeById(this.$route.params.id);
             }
     }
     }
