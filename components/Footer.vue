@@ -1,9 +1,8 @@
 <template>
     <div class="footer">
-            <Footer>
-                <div class="carandbike">
-                    <ul>
-                        <p>Car&Bike</p>
+        <div>
+            <ul>
+                        <li>Car&Bike</li>
                         <li>
                             <nuxt-link class="router" to="/">About Us</nuxt-link>
                         </li>
@@ -27,9 +26,9 @@
                         </li>
                     </ul>
                 </div>
-                 <div class="carandbike">
-                    <ul>
-                        <p>Popular Car Brands</p>
+                 <div>
+                     <ul>
+                        <li>Popular Car Brands</li>
                         <li>
                             <nuxt-link class="router" to="/">Maruti Suzuki</nuxt-link>
                         </li>
@@ -53,35 +52,10 @@
                         </li>
                     </ul>
                 </div>
-                         <div class="popularbrand">
-                    <ul>
-                        <p>Popular Car Brands</p>
-                        <li>
-                            <nuxt-link class="router" to="/">Maruti Suzuki</nuxt-link>
-                        </li>
-                        <li>
-                            <nuxt-link class="router" to="/">Hyundai</nuxt-link>
-                        </li>
-                         <li>
-                            <nuxt-link class="router" to="/">Tata</nuxt-link>
-                        </li>
-                         <li>
-                            <nuxt-link class="router" to="/">Volkswagen</nuxt-link>
-                        </li>
-                         <li>
-                            <nuxt-link class="router" to="/">Honda</nuxt-link>
-                        </li>
-                          <li>
-                            <nuxt-link class="router" to="/">Mahindra</nuxt-link>
-                        </li>
-                          <li>
-                            <nuxt-link class="router" to="/">Kia</nuxt-link>
-                        </li>
-                    </ul>
-                </div>
-                    <div class="popularmodel">
-                    <ul>
-                        <p>Popular Car Models</p>
+                        
+                    <div>
+                        <ul>
+                        <li>Popular Car Models</li>
                         <li>
                             <nuxt-link class="router" to="/">Mahindra XUV 700</nuxt-link>
                         </li>
@@ -105,9 +79,9 @@
                         </li>
                     </ul>
                 </div>
-                 <div class="popularmodel">
-                    <ul>
-                        <p>Popular Bike Brands</p>
+                 <div>
+                     <ul>
+                        <li>Popular Bike Brands</li>
                         <li>
                             <nuxt-link class="router" to="/">Royal Enfield</nuxt-link>
                         </li>
@@ -131,9 +105,9 @@
                         </li>
                     </ul>
                 </div>
-                   <div class="popularmodel">
-                    <ul>
-                        <p>Popular Bike Models</p>
+                   <div>
+                       <ul>
+                        <li>Popular Bike Models</li>
                         <li>
                             <nuxt-link class="router" to="/">Royal Enfield Classic 350</nuxt-link>
                         </li>
@@ -162,7 +136,6 @@
 
                     </ul>
                 </div>
-            </Footer>
     </div>
 </template>
 
@@ -176,13 +149,37 @@
 .router{
     color: #949393;
     text-decoration: none;
-    width: 11rem;
-    font-size: 1.5rem;
-    margin-top: 3rem;
+   
+  
    
 }
 .router:hover{
     text-decoration: underline;
     color: rgb(255, 230, 4);
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background: #26282b;
+    border-top: 1px solid #707070;
+    padding-top: 20px;
+}
+
+.footer>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer>div>ul{
+    display: flex;
+    flex-direction: column;
+}
+li{
+    list-style: none;
+    color: gold;
+    
+}
+ul>li:first-child{
+    border-bottom: 1px solid gold;
 }
 </style>

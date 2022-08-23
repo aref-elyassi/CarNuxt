@@ -101,8 +101,7 @@ data(){
 }
 .about_car_bike{
   width: 100%;
-  background: rgb(103,103,103);
-background: linear-gradient(162deg, rgba(103,103,103,1) 0%, rgba(62,62,62,1) 44%, rgba(25,25,25,0.981127485173757) 100%);
+  background: #26282b;
 display: flex;
 justify-content: center;
 align-items: center;
