@@ -281,5 +281,8 @@ export const state=()=>({
 export const getters={
     allCars(state){
         return state.cars
+    },
+    allBikes(state){
+        return state.bikes
     }
 }
