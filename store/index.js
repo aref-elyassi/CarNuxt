@@ -38,7 +38,6 @@ export const state=()=>({
             name:'Lorem',
             description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
             description2:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ullam saepe facere ea at. Debitis, atque tempora! Enim aspernatur sed facilis repudiandae voluptatem ea itaque deleniti ut aliquam, odio delectus!',
-
             time:'5 hours ago',
             image:'car5.png',
             price:'5000$'
@@ -150,6 +149,128 @@ export const state=()=>({
             description2:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ullam saepe facere ea at. Debitis, atque tempora! Enim aspernatur sed facilis repudiandae voluptatem ea itaque deleniti ut aliquam, odio delectus!',
             time:'5 hours ago',
             image:'car15.png',
+            price:'5000$'
+    
+        },
+       
+    ],
+    bikes:[
+        {
+            id:1,
+            name:'Lorem',
+            description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
+            description2:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ullam saepe facere ea at. Debitis, atque tempora! Enim aspernatur sed facilis repudiandae voluptatem ea itaque deleniti ut aliquam, odio delectus!',
+            time:'5 hours ago',
+            image:'bike1.jpg',
+            price:'5000$'
+    
+        },
+        {
+            id:2,
+            name:'Lorem',
+            description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
+            description2:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ullam saepe facere ea at. Debitis, atque tempora! Enim aspernatur sed facilis repudiandae voluptatem ea itaque deleniti ut aliquam, odio delectus!',
+            time:'5 hours ago',
+            image:'bike2.jpg',
+            price:'5000$'
+    
+        },
+        {
+            id:3,
+            name:'Lorem',
+            description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
+            description2:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ullam saepe facere ea at. Debitis, atque tempora! Enim aspernatur sed facilis repudiandae voluptatem ea itaque deleniti ut aliquam, odio delectus!',
+
+            time:'5 hours ago',
+            image:'bike3.png',
+            price:'5000$'
+    
+        },
+      
+        {
+            id:5,
+            name:'Lorem',
+            description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
+            description2:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ullam saepe facere ea at. Debitis, atque tempora! Enim aspernatur sed facilis repudiandae voluptatem ea itaque deleniti ut aliquam, odio delectus!',
+            time:'5 hours ago',
+            image:'bike5.jpg',
+            price:'5000$'
+    
+        },
+        {
+            id:6,
+            name:'Lorem',
+            description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
+            description2:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ullam saepe facere ea at. Debitis, atque tempora! Enim aspernatur sed facilis repudiandae voluptatem ea itaque deleniti ut aliquam, odio delectus!',
+
+            time:'5 hours ago',
+            image:'bike6.jpg',
+            price:'5000$'
+    
+        },
+        {
+            id:7,
+            name:'Lorem',
+            description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
+            description2:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ullam saepe facere ea at. Debitis, atque tempora! Enim aspernatur sed facilis repudiandae voluptatem ea itaque deleniti ut aliquam, odio delectus!',
+
+            time:'5 hours ago',
+            image:'bike7.jpg',
+            price:'5000$'
+    
+        },
+        {
+            id:8,
+            name:'Lorem',
+            description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
+            description2:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ullam saepe facere ea at. Debitis, atque tempora! Enim aspernatur sed facilis repudiandae voluptatem ea itaque deleniti ut aliquam, odio delectus!',
+
+            time:'5 hours ago',
+            image:'bike8.jpg',
+            price:'5000$'
+    
+        },
+        {
+            id:9,
+            name:'Lorem',
+            description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
+            description2:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ullam saepe facere ea at. Debitis, atque tempora! Enim aspernatur sed facilis repudiandae voluptatem ea itaque deleniti ut aliquam, odio delectus!',
+
+            time:'5 hours ago',
+            image:'bike9.jpg',
+            price:'5000$'
+    
+        },
+        {
+            id:10,
+            name:'Lorem',
+            description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
+            description2:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ullam saepe facere ea at. Debitis, atque tempora! Enim aspernatur sed facilis repudiandae voluptatem ea itaque deleniti ut aliquam, odio delectus!',
+
+            time:'5 hours ago',
+            image:'bike10.jpg',
+            price:'5000$'
+    
+        },
+        {
+            id:11,
+            name:'Lorem',
+            description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
+            description2:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ullam saepe facere ea at. Debitis, atque tempora! Enim aspernatur sed facilis repudiandae voluptatem ea itaque deleniti ut aliquam, odio delectus!',
+
+            time:'5 hours ago',
+            image:'bike11.jpeg',
+            price:'5000$'
+    
+        },
+        {
+            id:12,
+            name:'Lorem',
+            description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
+            description2:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ullam saepe facere ea at. Debitis, atque tempora! Enim aspernatur sed facilis repudiandae voluptatem ea itaque deleniti ut aliquam, odio delectus!',
+
+            time:'5 hours ago',
+            image:'bike12.jpg',
             price:'5000$'
     
         },
