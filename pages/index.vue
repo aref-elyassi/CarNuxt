@@ -51,10 +51,11 @@
   </div>
 </div>
 <div class="row">
-<div class="carousel">
+<div  class="carousel">
   <Carousel/>
 </div>
 </div>
+
   </div>
 </template>
 
