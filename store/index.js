@@ -32,17 +32,7 @@ export const state=()=>({
             price:'5000$'
     
         },
-        {
-            id:4,
-            name:'Lorem',
-            description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
-            description2:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ullam saepe facere ea at. Debitis, atque tempora! Enim aspernatur sed facilis repudiandae voluptatem ea itaque deleniti ut aliquam, odio delectus!',
-
-            time:'5 hours ago',
-            image:'car4.jpeg',
-            price:'5000$'
-    
-        },
+      
         {
             id:5,
             name:'Lorem',
@@ -83,7 +73,7 @@ export const state=()=>({
             description2:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ullam saepe facere ea at. Debitis, atque tempora! Enim aspernatur sed facilis repudiandae voluptatem ea itaque deleniti ut aliquam, odio delectus!',
 
             time:'5 hours ago',
-            image:'car8.jpeg',
+            image:'car8.png',
             price:'5000$'
     
         },
@@ -158,23 +148,12 @@ export const state=()=>({
             name:'Lorem',
             description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
             description2:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ullam saepe facere ea at. Debitis, atque tempora! Enim aspernatur sed facilis repudiandae voluptatem ea itaque deleniti ut aliquam, odio delectus!',
-
             time:'5 hours ago',
             image:'car15.png',
             price:'5000$'
     
         },
-        {
-            id:16,
-            name:'Lorem',
-            description:'2022 Porsche 911 GT3 RS Debuts As A Road-Legal Monster',
-            description2:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ullam saepe facere ea at. Debitis, atque tempora! Enim aspernatur sed facilis repudiandae voluptatem ea itaque deleniti ut aliquam, odio delectus!',
-
-            time:'5 hours ago',
-            image:'car16.jpeg',
-            price:'5000$'
-    
-        },
+       
     ]
 })
 
