@@ -55,6 +55,14 @@
   <Carousel/>
 </div>
 </div>
+<div class="row">
+  <div class="about_car_bike">
+    <div class="content_about">
+      <h6>About Cars And Bike</h6>
+      <p>car&bike is not merely another name in the world of automotive portals. We bring together the best of both cars and bikes. Whether it's new cars, used cars or new bikes, we endeavour to guide you with everything related to wheels. Be it news, prices, reviews, dealers, launches, upcoming models or anything in between, car&bike is here to help!</p>
+    </div>
+  </div>
+</div>
 
   </div>
 </template>
@@ -90,6 +98,40 @@ data(){
 *{
   margin: 0;
   padding: 0;
+}
+.about_car_bike{
+  width: 100%;
+  background: rgb(103,103,103);
+background: linear-gradient(162deg, rgba(103,103,103,1) 0%, rgba(62,62,62,1) 44%, rgba(25,25,25,0.981127485173757) 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.content_about{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  
+  padding: 15px;
+  
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+margin-top: 2rem;
+}.content_about>p{
+border:1px solid #3a3a3a;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 1px;
+  padding: 15px;
+  margin-top: 10px;
+  color: gold;
+}
+.content_about>h6{
+  color: gold;
+  border-bottom: 2px solid gold;
 }
 .carousel{
   background: url('../assets/images/bg16.png');
