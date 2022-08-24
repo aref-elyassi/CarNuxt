@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
           <div class="form">
             <h1>Please Complete This Form</h1>
@@ -29,6 +29,9 @@
 </script>
 
 <style  scoped>
+.container-fluid{
+    background: #26282b;
+}
 .signin-out{
     display: flex;
     align-items: center;
